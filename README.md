@@ -87,4 +87,4 @@ The analyses produce charts, processed results, and supporting artifacts in the 
 
 ## License
 
-No license has been specified for this repository yet. Unless a license is added, all rights are reserved by the repository owner.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
