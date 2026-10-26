@@ -1,0 +1,15 @@
+,Issue,Rows affected,Action
+0,Exact duplicate rows,0,dropped
+1,Complaints listing more than one component (row = complaint x component),88185,kept for component analysis; collapsed to one row per complaint for text mining
+2,MILES = 0 (NHTSA code for 'not provided'),4552,set to NaN
+3,VEH_SPEED = 0 (NHTSA code for 'not provided'),51936,set to NaN
+4,OCCURENCES = 0 (NHTSA code for 'not provided'),1,set to NaN
+5,NUM_CYLS = 0 (NHTSA code for 'not provided'),3,set to NaN
+6,Model year 9999 (unknown),5924,set to NaN
+7,Component 'UNKNOWN OR OTHER',41033,kept as its own class; text mining recovers the real component
+8,"Mileage > 500,000",337,set to NaN (typos)
+9,Speed > 150 mph,288,set to NaN
+10,Failure date after complaint-received date,6,failure date set to NaN
+11,Failure date before the vehicle's model year - 1,343,failure date set to NaN
+12,Empty complaint narrative,0,"kept for structured EDA, excluded from text mining"
+13,"Personal / identifying fields (names, phone, VIN, city)",418884,dropped from the analysis tables
